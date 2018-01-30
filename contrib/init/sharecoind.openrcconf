@@ -1,0 +1,27 @@
+# /etc/conf.d/sharecoind: config file for /etc/init.d/sharecoind
+
+# Config file location
+#SHARECOIND_CONFIGFILE="/etc/sharecoin/sharecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $SHARECOIND_USER)
+#SHARECOIND_PIDDIR="/var/run/sharecoind"
+
+# What filename to give the pidfile
+#SHARECOIND_PIDFILE="${SHARECOIND_PIDDIR}/sharecoind.pid"
+
+# Where to write sharecoind data (be mindful that the blockchain is large)
+#SHARECOIND_DATADIR="/var/lib/sharecoind"
+
+# User and group to own sharecoind process
+#SHARECOIND_USER="sharecoin"
+#SHARECOIND_GROUP="sharecoin"
+
+# Path to sharecoind executable
+#SHARECOIND_BIN="/usr/bin/sharecoind"
+
+# Nice value to run sharecoind under
+#SHARECOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+SHARECOIND_OPTS=""
+
